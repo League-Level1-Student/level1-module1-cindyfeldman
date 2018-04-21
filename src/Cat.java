@@ -36,6 +36,13 @@ public class Cat {
 
 	public static void main(String[] args) {
 		/* Do the following things without changing the Cat class */
+Cat fluffy= new Cat("fluffy ");
+fluffy.meow();
+fluffy.printName();
+for (int i = 0; i < 9; i++) {
+	fluffy.kill();	
+}
+
 
 		// 1. Make the Cat meow
 		
