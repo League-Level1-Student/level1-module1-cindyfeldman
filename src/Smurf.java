@@ -36,7 +36,7 @@ public class Smurf {
 		else {
 			System.out.println("white hat");
 		}
-		return name+ " "+"Smurf has a "+ getHatColor();
+		return  name;
 	}
 
 	/* Smurfette is the only female Smurf. */
@@ -48,7 +48,8 @@ public class Smurf {
 		else {
 			System.out.println("boy");
 		}
-		return name + "smurf "+ isGirlOrBoy();
+		return name;
+
 	}
 
 }
